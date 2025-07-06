@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Boolean_cheks
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 24;
+            int b = 21;
+            int c = 61;
+            bool x = a == b;
+            bool n = a < b;
+            bool m = c > b;
+            Console.WriteLine(x);
+            Console.WriteLine(n);
+            Console.WriteLine(m);
+        }
+    }
+}
